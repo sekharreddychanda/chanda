@@ -1,0 +1,15 @@
+echo "enter a file name"
+read fname
+echo "enter to string to search"
+read str
+if grep $str $fname
+then
+echo "$str is found in the file $fie"
+else
+echo "str is not found in $fname"
+fi
+
+
+:wq
+
+

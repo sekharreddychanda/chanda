@@ -1,0 +1,12 @@
+echo enter two numbers
+read a b
+if [ $a -gt $b ]
+then
+echo $a is greatest value
+else
+echo $b is greatest value
+fi
+
+
+:wq
+

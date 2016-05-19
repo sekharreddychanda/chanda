@@ -1,0 +1,12 @@
+echo enetr source fiename and target filename
+read src trg
+if cp $src $trg
+then
+echo file copied successfully
+else
+echo faied to copy the file 
+fi
+
+:wq
+
+
